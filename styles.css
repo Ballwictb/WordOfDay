@@ -40,6 +40,10 @@ body::-webkit-scrollbar-track {
     background-color: var(--track-color);
 }
 
+body::selection {
+        background-color: #ffe97f;
+        color: #e76e55;
+    }
 
 /* Firefox */
 @supports not selector(::-webkit-scrollbar) {
